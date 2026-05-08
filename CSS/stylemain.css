@@ -123,6 +123,17 @@ body {
     margin-top: 1px;
 }
 
+.box-introduction {
+    background: linear-gradient(180deg, 
+        #d8d4c8 0%,        /* grey-ivory to retake the colours of the map */
+        #e0dccf 25%,       /* gradually lighter */
+        #ebe5d4 55%,       /* warm ivory */
+        #f5f1e8 85%,       /* Actual background till the end */
+        #f5f1e8 100%);
+    margin: 0;
+    padding-top: 1px;
+}
+
 #intro {
     background-color: #ede0c4;
     max-width: 1400px;
