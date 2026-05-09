@@ -60,6 +60,34 @@ body {
     gap: 0;
 }
 
+/* Dropdown menu */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    min-width: 180px;
+    background-color: var(--nav-back);
+    border: 1px solid var(--nav-frames);
+    margin: 0;
+    padding: 0.5rem 0;
+
+    /* Hidden */
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+
+/* Dropdown on hover */
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 .navlinks li a {
     display: flex;
     align-items: center;
@@ -135,6 +163,8 @@ body {
 }
 
 #intro {
+    display: flex;
+    justify-content: flex-end;
     background-color: #ede0c4;
     max-width: 1400px;
     margin: 4rem auto; /* centered horizontally */
@@ -146,6 +176,13 @@ body {
         0 8px 24px rgba(60, 40, 20, 0.06);
     border-radius: 3px;
 }
+
+#Marsili {
+    height: 50vh;
+    border-radius: 12px;
+    margin-top: 35px;
+}
+
 
 
 /* Team Section Cards*/
