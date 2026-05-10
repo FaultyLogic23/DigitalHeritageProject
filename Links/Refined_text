@@ -1,0 +1,53 @@
+:: Start
+Bologna. You are Caterina, 17 years old.
+Your brother said girls are not welcome inside the Istituto delle Scienze.
+So naturally—you came anyway.
+The halls of Palazzo Poggi are silent. Glass cases line the walls: preserved animals, strange instruments, things better left unexplained.
+Then you smell coffee. Fresh coffee. Somewhere nearby.
+[[Follow the smell -> Corridor]]
+[[Explore the museum first -> Museum]]
+
+:: Museum
+You stop at a display case.
+Inside: a whale jawbone, a cracked globe, a rusted compass.
+A brass plaque reads: Collected by Luigi Ferdinando Marsili.
+The name feels familiar.
+Then the smell of coffee drifts past again.
+[[Follow it -> Corridor]]
+
+:: Corridor
+The corridor narrows.
+At the end: a half-open door.
+Warm light spills through the gap.
+Inside, something clinks softly.
+A cup?
+[[Push the door open -> Study]]
+[[Knock first -> Study]]
+
+:: Study
+The room is chaos.
+Maps cover the walls. Glass jars cloud the shelves. Cannon sketches litter the desk.
+Behind it sits an old man.
+He looks up and smiles.
+“Ah. Another curious intruder.”
+[[Apologize -> Conversation]]
+[[Stay silent -> Conversation]]
+[[Ask who he is -> Conversation]]
+
+:: Conversation
+The old man gestures to a chair.
+“Sit.”
+You do.
+He lifts a tiny porcelain cup.
+“Coffee?”
+You hesitate.
+“I am Luigi Ferdinando Marsili.”
+Your breath catches.
+The founder. The explorer. The legend.
+He points to the objects around him.
+“Every one of these holds a story. Choose.”
+[[The river maps -> X. The River, Drawn]]
+[[The coffee cup -> VII. A Small Cup]]
+[[The strange glass tube -> XI. The Ampoule]]
+[[The cannon sketches -> VIII. The Dangerous Pages]]
+[[Ask about his youth -> I. The Boy in Bologna]]
