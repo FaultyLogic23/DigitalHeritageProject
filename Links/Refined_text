@@ -203,3 +203,67 @@ He smiles faintly.
 “I became something else.”
 “Merchandise.”
 [[Return -> Conversation]]
+=======================================================================
+
+:: IV. The Coin Yet to Be Spent
+“It is a small word—sold,” the old man says. “But spoken by the one who lived it, it is not small at all.”
+[[Ask how it began -> The First Exchange]]
+[[Stay silent and listen -> The Silence]]
+
+:: The Silence
+Caterina says nothing.
+The old man notices.
+“Good,” he says quietly. “This part is not for interrupting.”
+[[Continue -> The First Exchange]]
+
+:: The First Exchange
+“The Tartars did not keep me.”
+“They could not. I was wounded. I slowed them down.”
+“So I was taken to men who paid for men.”
+[[Ask what that felt like -> Being Moved]]
+[[Ask how they treated him -> Not a Person]]
+
+:: Being Moved
+“No auction. No shouting.”
+“Just tents. Hands. Decisions.”
+“I moved from one man to another like a traded object.”
+[[Who helped you survive? -> The Woman]]
+
+:: Not a Person
+“They did not hate me.”
+“They did not love me.”
+“I was useful. That was enough.”
+[[Continue -> The Woman]]
+
+:: The Woman
+“There was a woman.”
+“She washed my wound with wine and hot water.”
+“She never spoke to me.”
+“I still think she saved my life.”
+[[What happened after that? -> The Pasha]]
+[[Think about her -> Memory]]
+
+:: Memory
+The old man pauses longer than before.
+“I do not know her name.”
+“But I remember her hands.”
+[[Continue -> The Pasha]]
+
+:: The Pasha
+“At the end, I reached the Pasha of Temesvar.”
+“He looked at me like an animal in a market.”
+“He said something. Everyone laughed.”
+[[What did he say? -> The Sentence]]
+[[How did you survive him? -> Survival]]
+
+:: The Sentence
+“Years later I learned it.”
+“He said: This one will live.”
+The old man exhales.
+[[And did you? -> Survival]]
+
+:: Survival
+“I did.”
+“But the body never forgets what it was.”
+“Even now, a touch can take me back there.”
+[[Return -> Conversation]]
