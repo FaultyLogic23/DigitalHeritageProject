@@ -51,3 +51,68 @@ He points to the objects around him.
 [[The strange glass tube -> XI. The Ampoule]]
 [[The cannon sketches -> VIII. The Dangerous Pages]]
 [[Ask about his youth -> I. The Boy in Bologna]]
+
+
+=============================================
+
+:: I. The Boy in Bologna
+Marsili leans back.
+â€œMy name is where everything begins.â€
+â€œI was born here in Bologna, in 1658. Just a few streets from this room.â€
+â€œFrom the moment I was born, I was already a count.â€
+He shrugs.
+â€œA title I had done nothing to earn.â€
+[[Ask about his family -> Noble House]]
+[[Ask why titles meant so little to him -> Empty Honors]]
+
+:: Noble House
+â€œMy father was Carlo Marsili. My mother, Margherita Hercolani.â€
+â€œTwo old families.â€
+â€œIn Bologna, noble houses like to marry their histories together.â€
+â€œAs if history can be protected by paperwork.â€
+[[Ask what was expected of him -> Expectations]]
+
+:: Empty Honors
+â€œA title given at birth is only clothing.â€
+He glances at his ink-stained hands.
+â€œI preferred things one earns.â€
+[[Ask what he wanted instead -> Expectations]]
+
+:: Expectations
+â€œMy family expected university.â€
+â€œThe oldest university in the world was practically outside my door.â€
+â€œAnd I hated the idea.â€
+[[Why? -> Why Refuse]]
+
+:: Why Refuse
+â€œThey wanted me to read what others had already written.â€
+â€œTo repeat what others had already said.â€
+â€œThat is not discovery.â€
+â€œWhat would you choose?â€
+[[Books -> Books Choice]]
+[[Experience -> Experience Choice]]
+
+:: Books Choice
+â€œA respectable answer.â€
+â€œBut I was not a respectable boy.â€
+[[Continue -> Secret Student]]
+
+:: Experience Choice
+â€œExactly.â€
+â€œTo understand the world, one must step into it.â€
+[[Continue -> Secret Student]]
+
+:: Secret Student
+â€œI still attended lectures. Quietly. At the back.â€
+â€œLike a thief.â€
+â€œI listened to great minds speak of stars, lungs, and plants.â€
+â€œBut I never enrolled. Never graduated.â€
+[[What happened next? -> Newton]]
+
+:: Newton
+â€œAnd yet...â€
+â€œIn London, Sir Isaac Newton introduced me to the Royal Society.â€
+â€œHe called me eminent.â€
+â€œI nearly laughed.â€
+â€œBecause all I could think of was the boy hiding at the back of a lecture hall in Bologna.â€
+[[Return to his desk -> Conversation]]
