@@ -1,269 +1,36 @@
 :: Start
-Bologna. You are Caterina, 17 years old.
-Your brother said girls are not welcome inside the Istituto delle Scienze.
-So naturally—you came anyway.
-The halls of Palazzo Poggi are silent. Glass cases line the walls: preserved animals, strange instruments, things better left unexplained.
-Then you smell coffee. Fresh coffee. Somewhere nearby.
-[[Follow the smell -> Corridor]]
-[[Explore the museum first -> Museum]]
+In Bologna, and you are Caterina, seventeen years old, standing inside the silent vastness of the Istituto delle Scienze.
+The museum stretches endlessly around you, glass cases filled with preserved animals, strange instruments, cracked globes, 
+and objects that feel half scientific, half impossible. As you move deeper, the silence begins to shift—not break, 
+but bend—because now there is something else inside it. A smell. Coffee. Warm, fresh, and completely out of place in a building this old.
 
-:: Museum
-You stop at a display case.
-Inside: a whale jawbone, a cracked globe, a rusted compass.
-A brass plaque reads: Collected by Luigi Ferdinando Marsili.
-The name feels familiar.
-Then the smell of coffee drifts past again.
-[[Follow it -> Corridor]]
+[[Follow the smell deeper into the building -> The Study]]
+[[Stay and examine the exhibits around you -> The Museum Memory]]
 
-:: Corridor
-The corridor narrows.
-At the end: a half-open door.
-Warm light spills through the gap.
-Inside, something clinks softly.
-A cup?
-[[Push the door open -> Study]]
-[[Knock first -> Study]]
+:: The Museum Memory
+You slow down, letting your curiosity drift through the glass cases as you pass relics of strange knowledge: a whale jawbone resting 
+like something too large to belong indoors, a rusted compass that has forgotten direction, and a cracked globe marked with faded journeys 
+that no longer connect to anything real.
+A brass plaque catches your attention—Luigi Ferdinando Marsili. The name lingers without explanation,
+as if it expects you to already know it. And yet even as you stand there, the smell of coffee returns, stronger now, 
+threading upward through the corridors like something calling you back to where you should have gone first.
 
-:: Study
-The room is chaos.
-Maps cover the walls. Glass jars cloud the shelves. Cannon sketches litter the desk.
-Behind it sits an old man.
-He looks up and smiles.
-“Ah. Another curious intruder.”
-[[Apologize -> Conversation]]
-[[Stay silent -> Conversation]]
-[[Ask who he is -> Conversation]]
+[[Follow the coffee smell -> The Study]]
 
-:: Conversation
-The old man gestures to a chair.
-“Sit.”
-You do.
-He lifts a tiny porcelain cup.
+:: The Study
+You follow the scent upward until the corridors narrow and the silence thickens, ending at a half-open door where warm light spills into the hallway. 
+Inside, you hear the soft sound of movement, the faint clink of porcelain, and something that feels like presence before it becomes sight.
+The room inside is crowded in a way that feels intentional rather than messy—maps layered across walls, glass jars filled with unknown substances, 
+and sketches of cannons spread across a desk like fragments of a mind thinking too much at once. 
+Behind it sits an old man who looks up at you not with surprise, but recognition, as if you were expected.
+He gestures to a chair, and when you sit, he lifts a small porcelain cup.
 “Coffee?”
-You hesitate.
-“I am Luigi Ferdinando Marsili.”
-Your breath catches.
-The founder. The explorer. The legend.
-He points to the objects around him.
-“Every one of these holds a story. Choose.”
-[[The river maps -> X. The River, Drawn]]
-[[The coffee cup -> VII. A Small Cup]]
-[[The strange glass tube -> XI. The Ampoule]]
-[[The cannon sketches -> VIII. The Dangerous Pages]]
-[[Ask about his youth -> I. The Boy in Bologna]]
+Then he gives his name: Luigi Ferdinando Marsili.
+And suddenly the room changes, because names like that are not just names—they are histories. Explorations. Wars. 
+Knowledge. And now, all of it is sitting in front of you, asking you where you want to begin.
 
-
-=============================================
-
-:: I. The Boy in Bologna
-Marsili leans back.
-â€œMy name is where everything begins.â€
-â€œI was born here in Bologna, in 1658. Just a few streets from this room.â€
-â€œFrom the moment I was born, I was already a count.â€
-He shrugs.
-â€œA title I had done nothing to earn.â€
-[[Ask about his family -> Noble House]]
-[[Ask why titles meant so little to him -> Empty Honors]]
-
-:: Noble House
-â€œMy father was Carlo Marsili. My mother, Margherita Hercolani.â€
-â€œTwo old families.â€
-â€œIn Bologna, noble houses like to marry their histories together.â€
-â€œAs if history can be protected by paperwork.â€
-[[Ask what was expected of him -> Expectations]]
-
-:: Empty Honors
-â€œA title given at birth is only clothing.â€
-He glances at his ink-stained hands.
-â€œI preferred things one earns.â€
-[[Ask what he wanted instead -> Expectations]]
-
-:: Expectations
-â€œMy family expected university.â€
-â€œThe oldest university in the world was practically outside my door.â€
-â€œAnd I hated the idea.â€
-[[Why? -> Why Refuse]]
-
-:: Why Refuse
-â€œThey wanted me to read what others had already written.â€
-â€œTo repeat what others had already said.â€
-â€œThat is not discovery.â€
-â€œWhat would you choose?â€
-[[Books -> Books Choice]]
-[[Experience -> Experience Choice]]
-
-:: Books Choice
-â€œA respectable answer.â€
-â€œBut I was not a respectable boy.â€
-[[Continue -> Secret Student]]
-
-:: Experience Choice
-â€œExactly.â€
-â€œTo understand the world, one must step into it.â€
-[[Continue -> Secret Student]]
-
-:: Secret Student
-â€œI still attended lectures. Quietly. At the back.â€
-â€œLike a thief.â€
-â€œI listened to great minds speak of stars, lungs, and plants.â€
-â€œBut I never enrolled. Never graduated.â€
-[[What happened next? -> Newton]]
-
-:: Newton
-â€œAnd yet...â€
-â€œIn London, Sir Isaac Newton introduced me to the Royal Society.â€
-â€œHe called me eminent.â€
-â€œI nearly laughed.â€
-â€œBecause all I could think of was the boy hiding at the back of a lecture hall in Bologna.â€
-[[Return to his desk -> Conversation]]
-
-=================================================================================
-
-:: II. Two Currents
-“I was twenty-one,” the old man says, “and the world was the wrong size.”
-He sips his coffee. The tiny cup looks absurd in his hand.
-“Bologna was small. My future was small. So when the Venetian ambassador needed someone for travel in 1679—I obliged.”
-[[Where did you go? -> Constantinople]]
-
-:: Constantinople
-“Constantinople.”
-He says it like a memory he still visits.
-“I lived there months. Learned Turkish. Sat in coffee houses where men played chess for hours without raising their voices.”
-“I met Husayn Efendi, a scholar of coffee. He gave me his writings. He has been dead a long time—but I still read him. In that way, he is not gone.”
-[[What interested you most? -> The Bosporus]]
-
-:: The Bosporus
-“The strait.”
-His eyes sharpen.
-“The water between two worlds.”
-“Two currents exist there. One flows south on the surface. Another flows north underneath.”
-“Fishermen knew it for centuries. They felt it in their nets—but no one explained it properly.”
-[[What did you do? -> The Experiment]]
-
-:: The Experiment
-“I asked a question no one had tested.”
-“I lowered a bottle into the water.”
-“I measured what came back.”
-He leans forward slightly.
-“The deep water was colder. Saltier. Heavier.”
-“From that, I understood something simple.”
-“The sea is not one thing. It is layered. Moving. Alive in motion.”
-[[Was this important? -> Discovery]]
-
-:: Discovery
-“I did not know it then.”
-“I was only twenty-one.”
-“I only knew no one else had bothered to get their sleeves wet.”
-[[Return -> Conversation]]
-===================================================================
-
-:: III. The Rába
-“I tell this one badly,” the old man says. “Each time, it comes out wrong.”
-“You will forgive me.”
-[[Continue -> The Borderlands]]
-
-:: The Borderlands
-“In 1681 I joined the Emperor’s army.”
-“Not for glory. I wanted the borderlands.”
-“The place where empires press against each other like grinding stone.”
-“A library cannot show that.”
-“A horse can.”
-[[Go to 1683 -> The Battle Year]]
-
-:: The Battle Year
-“In 1683 the Ottoman army marched toward Vienna.”
-“I was not at Vienna.”
-“I was at a smaller fight. A skirmish.”
-“On the river Rába, in Hungary.”
-[[What happened there? -> The Skirmish]]
-
-:: The Skirmish
-“I remember dust. Always dust.”
-“I remember a horse falling on me.”
-“I remember shouting—too close to my ear to be human.”
-“I remember cold river water.”
-“I thought: this is how it ends.”
-“I was twenty-five.”
-[[Did you survive? -> Survival]]
-
-:: Survival
-“Yes.”
-He smiles faintly.
-“Because I was not killed.”
-“I was found by Crimean Tartar riders.”
-“They saw I was a gentleman.”
-“A gentleman is not waste. A gentleman is a coin yet to be spent.”
-[[What did they do with you? -> Capture]]
-
-:: Capture
-“One of them lifted my chin.”
-“Studied my face like cloth in a market.”
-“Not cruelly. Carefully.”
-“In that moment, I stopped being Marsili of Bologna.”
-“I became something else.”
-“Merchandise.”
-[[Return -> Conversation]]
-=======================================================================
-
-:: IV. The Coin Yet to Be Spent
-“It is a small word—sold,” the old man says. “But spoken by the one who lived it, it is not small at all.”
-[[Ask how it began -> The First Exchange]]
-[[Stay silent and listen -> The Silence]]
-
-:: The Silence
-Caterina says nothing.
-The old man notices.
-“Good,” he says quietly. “This part is not for interrupting.”
-[[Continue -> The First Exchange]]
-
-:: The First Exchange
-“The Tartars did not keep me.”
-“They could not. I was wounded. I slowed them down.”
-“So I was taken to men who paid for men.”
-[[Ask what that felt like -> Being Moved]]
-[[Ask how they treated him -> Not a Person]]
-
-:: Being Moved
-“No auction. No shouting.”
-“Just tents. Hands. Decisions.”
-“I moved from one man to another like a traded object.”
-[[Who helped you survive? -> The Woman]]
-
-:: Not a Person
-“They did not hate me.”
-“They did not love me.”
-“I was useful. That was enough.”
-[[Continue -> The Woman]]
-
-:: The Woman
-“There was a woman.”
-“She washed my wound with wine and hot water.”
-“She never spoke to me.”
-“I still think she saved my life.”
-[[What happened after that? -> The Pasha]]
-[[Think about her -> Memory]]
-
-:: Memory
-The old man pauses longer than before.
-“I do not know her name.”
-“But I remember her hands.”
-[[Continue -> The Pasha]]
-
-:: The Pasha
-“At the end, I reached the Pasha of Temesvar.”
-“He looked at me like an animal in a market.”
-“He said something. Everyone laughed.”
-[[What did he say? -> The Sentence]]
-[[How did you survive him? -> Survival]]
-
-:: The Sentence
-“Years later I learned it.”
-“He said: This one will live.”
-The old man exhales.
-[[And did you? -> Survival]]
-
-:: Survival
-“I did.”
-“But the body never forgets what it was.”
-“Even now, a touch can take me back there.”
-[[Return -> Conversation]]
+[[His life and origins -> I. The Boy in Bologna]]
+[[His travels and the sea -> II. Two Currents]]
+[[War and captivity -> III. The Rába]]
+[[How he was sold and survived -> IV. The Coin Yet to Be Spent]]
+[[What he learned as a servant -> V. Invisible Things]]
