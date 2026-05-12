@@ -1,0 +1,60 @@
+:: Start
+In Bologna, and you are Caterina, seventeen years old, standing inside the silent vastness of the Istituto delle Scienze.
+The museum stretches endlessly around you, glass cases filled with preserved animals, strange instruments, cracked globes, 
+and objects that feel half scientific, half impossible. As you move deeper, the silence begins to shift—not break, 
+but bend—because now there is something else inside it. A smell. Coffee. Warm, fresh, and completely out of place in a building this old.
+
+[[Follow the smell deeper into the building -> The Study]]
+[[Stay and examine the exhibits around you -> The Museum Memory]]
+
+:: The Museum Memory
+You slow down, letting your curiosity drift through the glass cases as you pass relics of strange knowledge: a whale jawbone resting 
+like something too large to belong indoors, a rusted compass that has forgotten direction, and a cracked globe marked with faded journeys 
+that no longer connect to anything real.
+A brass plaque catches your attention—Luigi Ferdinando Marsili. The name lingers without explanation,
+as if it expects you to already know it. And yet even as you stand there, the smell of coffee returns, stronger now, 
+threading upward through the corridors like something calling you back to where you should have gone first.
+
+[[Follow the coffee smell -> The Study]]
+
+:: The Study
+You follow the scent upward until the corridors narrow and the silence thickens, ending at a half-open door where warm light spills into the hallway. 
+Inside, you hear the soft sound of movement, the faint clink of porcelain, and something that feels like presence before it becomes sight.
+The room inside is crowded in a way that feels intentional rather than messy—maps layered across walls, glass jars filled with unknown substances, 
+and sketches of cannons spread across a desk like fragments of a mind thinking too much at once. 
+Behind it sits an old man who looks up at you not with surprise, but recognition, as if you were expected.
+He gestures to a chair, and when you sit, he lifts a small porcelain cup.
+“Coffee?”
+Then he gives his name: Luigi Ferdinando Marsili.
+And suddenly the room changes, because names like that are not just names—they are histories. Explorations. Wars. 
+Knowledge. And now, all of it is sitting in front of you, asking you where you want to begin.
+
+[[His life and origins -> I. The Boy in Bologna]]
+[[His travels and the sea -> II. Two Currents]]
+[[War and captivity -> III. The Rába]]
+[[How he was sold and survived -> IV. The Coin Yet to Be Spent]]
+[[What he learned as a servant -> V. Invisible Things]]
+
+==============================================================
+
+:: I. The Boy in Bologna
+Marsili leans back in his chair, turning the small porcelain cup slowly between his fingers before speaking again. “I was born here in Bologna in 1658, 
+only a few streets from this room, and from the moment I arrived, my future had already been planned for me.” His father, Carlo Marsili, and his mother,
+Margherita Hercolani, belonged to two old noble families whose histories stretched across generations of titles, marriages, and carefully protected reputations. 
+From birth he inherited the title of count, though even now the idea seems faintly ridiculous to him. “A title given at birth is only clothing,” he says. 
+“People admire it before they know whether the person wearing it has earned anything at all.”
+The path prepared for him was simple: university, scholarship, politics, respectability. With the oldest university in the world standing almost outside 
+his door, everyone expected him to follow it willingly. Instead, he resisted it more with every passing year. He hated the thought of spending his life 
+repeating what other men had already written and calling that discovery. “They wanted me to study the world indirectly,” he says quietly, “when all I 
+wanted was to step into it myself.” Still, curiosity kept pulling him toward knowledge, and so he attended lectures unofficially, slipping into crowded halls 
+to listen from the back like a thief borrowing an education that did not belong to him. He listened to scholars discuss anatomy, astronomy, medicine, and plants,
+yet never enrolled, never graduated, and never became the respectable scholar his family expected.
+
+Marsili studies you for a moment before asking, “Tell me honestly—would you rather understand the world through books alone, or through experience, 
+risk, and direct encounter with things that do not care whether you survive them?” Whatever answer you choose, he smiles as though he already knows it. 
+Years later, after travels and discoveries carried him far beyond Bologna, Sir Isaac Newton introduced him to the Royal Society and called him eminent before
+some of the greatest minds in Europe. The memory still amuses him. “I nearly laughed,” he admits, “because all I could think about was the frightened boy hiding 
+at the back of lecture halls in Bologna, terrified someone might ask him a question he could not answer.”
+
+[[Books shape the world -> Conversation]]
+[[Experience shapes the world -> Conversation]]
