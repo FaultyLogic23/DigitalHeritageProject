@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Same Navbar */
+
+/* Creation of CSS Global Variables in order to use them around */
+
+:root {
+    --nav-back: #1a2744;
+    --nav-frames: #b89b5e;
+    --nav-text: #c8bfa0;
+    --nav-thover: #e8d9b0;
+    --nav-height: 64px;
+    --nav-font-ui: 'Inter', 'Segoe UI', sans-serif;
+    --nav-font-brand: Georgia, 'Times New Roman', serif;
+}
+
+
+/* Body */
+
+body {
+    background-color: #0d1526;
+    color: var(--nav-text);
+    font-family: var(--nav-font-ui);
+}
+
+/* Css Navbar Part */
+
+.box-nav {
+    background-color: var(--nav-back);
+    border-bottom: 1px solid var(--nav-frames);
+    padding: 0 2rem;
+    position: relative;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width:1200px;
+    margin:0 auto;
+    padding: 0 2rem;
+    height: var(--nav-height);
+}
+
+.navlinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:center;
+    height: var(--nav-height);
+    gap: 0;
+}
+
+.navlinks li a {
+    display: flex;
+    align-items: center;
+    height: var(--nav-height);
+    padding: 0 1rem;
+
+    /* Text part */
+    font-family: var(--nav-font-ui);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--nav-text);
+    text-decoration: none;
+
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.navlinks li a:hover{
+    color: var(--nav-thover);
+    border-bottom-color: var(--nav-frames);
+}

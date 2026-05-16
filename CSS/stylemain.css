@@ -139,10 +139,11 @@ body {
     border-bottom-color: var(--nav-frames);
 }
 
-/* Welcome and Introduction */
+/* Welcome  */
 
+/*
 .box-welcome {
-    background-image: url('../Images/danubiusmarsili.jpg'); /* Applying the background image */
+    background-image: url('../Images/danubiusmarsili.jpg');  Applying the background image 
     background-size: cover; 
     background-position: center;
     width: 100%;
@@ -150,6 +151,55 @@ body {
     overflow-x: hidden;
     margin-top: 1px;
 }
+*/
+
+.box-welcome {
+    background-color: var(--nav-back);
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    position: relative;
+}
+
+/* Gold lines decor */
+
+.box-welcome::before,
+.box-welcome::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    background-color: var(--nav-frames);
+    opacity: 0.6;
+}
+.box-welcome::before { top: 4rem; }
+.box-welcome::after  { bottom: 4rem; }
+
+.box-welcome h2 {
+    font-family: var(--nav-font-brand);
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 400;
+    color: var(--nav-thover);
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* HR style — used to separate sections */
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--nav-frames), transparent);
+    margin: 0;
+    opacity: 0.5;
+}
+
+/* Introduction */
 
 .box-introduction {
     background: linear-gradient(180deg, 
@@ -162,25 +212,95 @@ body {
     padding-top: 1px;
 }
 
+/* textintro */
+
+#textintro {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* "The Project" eyebrow label */
+#textintro h6 {
+    display: inline-block;
+    font-family: var(--nav-font-ui);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--nav-frames);
+    border-bottom: 1px solid var(--nav-frames);
+    padding-bottom: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+/* Main manifesto sentence, editorial */
+#textintro p {
+    font-family: var(--nav-font-brand);
+    font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+    line-height: 1.55;
+    color: var(--nav-back);
+    font-weight: 400;
+}
+
+/* Figure section with a two column layout */
+
+.boxfi {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+/* Left Col */
+
+.boxfi > div:first-child {
+    flex: 1;
+    max-width: 600px;
+}
+
+.boxfi h6 {
+    display: inline-block;
+    font-family: var(--nav-font-ui);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--nav-frames);
+    border-bottom: 1px solid var(--nav-frames);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.boxfi h3 {
+    font-family: var(--nav-font-brand);
+    font-size: 2.2rem;
+    color: var(--nav-back);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.boxfi p {
+    font-family: var(--nav-font-ui);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #3d2f1a;
+}
+
+/* Right Column portrait container */
 #intro {
     display: flex;
     justify-content: flex-end;
-    background-color: #ede0c4;
     max-width: 1400px;
-    margin: 4rem auto; /* centered horizontally */
-    padding: 5rem 4rem;
-    min-height: 70vh;
-    border: 1px solid #d4c4a0;
-    box-shadow: 
-        0 2px 8px rgba(60, 40, 20, 0.08),
-        0 8px 24px rgba(60, 40, 20, 0.06);
-    border-radius: 3px;
 }
 
 #Marsili {
     height: 50vh;
     border-radius: 12px;
-    margin-top: 35px;
+    margin-top: 0;
 }
 
 
@@ -270,4 +390,14 @@ body {
     color: #2c3e2b;
     text-align: center;
     font-weight: 600;
+}
+
+/* Github Link */
+
+.gitlink {
+    display: inline-flex;
+    margin-top: 0.5rem;
+    color: var(--nav-back);
+    font-size: 1.5rem;
+    transition: color 0.2s ease, transform 0.2s ease
 }
