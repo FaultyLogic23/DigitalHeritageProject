@@ -27,13 +27,44 @@ body {
     font-family: var(--nav-font-ui);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Creation of CSS Global Variables in order to use them around */
+
+:root {
+    --nav-back: #1a2744;
+    --nav-frames: #b89b5e;
+    --nav-text: #c8bfa0;
+    --nav-thover: #e8d9b0;
+    --nav-height: 64px;
+    --nav-font-ui: 'Inter', 'Segoe UI', sans-serif;
+    --nav-font-brand: Georgia, 'Times New Roman', serif;
+}
+
+
+/* Body */
+
+body {
+    background-color: #f5f1e8;
+    color: var(--nav-text);
+    font-family: var(--nav-font-ui);
+}
+
 /* Css Navbar Part */
 
 .box-nav {
     background-color: var(--nav-back);
     border-bottom: 1px solid var(--nav-frames);
     padding: 0 2rem;
-    position: relative;
+    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -78,5 +109,95 @@ body {
 
 .navlinks li a:hover{
     color: var(--nav-thover);
+    border-bottom-color: var(--nav-frames);
+}
+
+/* Dropdown menu */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown > a::after {
+    content: "▾";
+    margin-left: 6px;
+    font-size: 10px;
+    color: var(--nav-frames);
+}
+
+.dropdown-menu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: -1rem;
+    min-width: 200px;
+    background-color: var(--nav-back);
+    border: 1px solid var(--nav-frames);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    margin: 0;
+    padding: 0.5rem 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s;
+    z-index: 99;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Descriptions */
+
+.dropdown-menu li a {
+    height: auto;
+    padding: 0.7rem 1.5rem;
+    font-size: 13px;
+    border: none;
+    margin: 0;
+    flex-direction: column;        /* Name plus description */
+    align-items: flex-start;        /* at left */
+    gap: 2px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgba(184, 155, 94, 0.1);
+    color: var(--nav-thover);
+    border-bottom-color: transparent;
+}
+
+.dd-desc {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--nav-frames);
+    opacity: 0.7;
+}
+
+/* The Experience NavPart */
+
+.liexp{
+    position:absolute;
+    right: 1rem;
+    top: 0;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li a.startexp {
+    margin-left: 0.5rem;
+    padding: 8px 16px;
+    height: auto;
+    border: 1px solid var(--nav-frames);
+    border-radius: 4px;
+    color: var(--nav-frames);
+    font-size: 16px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navlinks li a.startexp:hover {
+    background-color: var(--nav-frames);
+    color: var(--nav-back);
     border-bottom-color: var(--nav-frames);
 }

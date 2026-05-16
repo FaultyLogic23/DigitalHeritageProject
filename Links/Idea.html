@@ -1,26 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset = "UTF-8">
-        <meta name="viewport" content="width=device-width" initial-scale = 1.0>
-        <link rel="stylesheet" href="/CSS/idea.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/idea.css" type="text/css">
+
+        <!-- Font Awesome via CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
-<body>
-    <div class="box-nav">
+    <body>
+        <div class="box-nav">
             <nav class="navbar">
                 <ul class = "navlinks">
-                    <li><a href="../website.html">Home</a></li>
-                    <li><a href="../Links/Project.html">The Project</a>
+                    <li><a href="website.html">Home</a></li>
+                    <li class="dropdown"><a href="Links/Project.html">The Project</a>
                         <ul class="dropdown-menu">
-                            <li><a href="Links/Disclaimer.html">Disclaimer</a></li>
-                            <li><a href="Links/Idea.html">The Idea</a></li>
+                            <li>
+                                <a href="Links/Idea.html">
+                                    <span>The Idea</span>
+                                    <span class="dd-desc">Concept &amp; Vision</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Links/Disclaimer.html">
+                                    <span>Disclaimer</span>
+                                    <span class="dd-desc">Credits &amp; Sources</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="../website.html#TeamMembers">The Team</a></li>
-                    <!-- Twine story -->
-                    <li class="liexp"><a href="Experience.html" class="startexp">The Experience</a></li>
+                    <li><a href="#TeamMembers">The Team</a></li>
+                    <!-- Twine link -->
+                    <li class="liexp"><a href="/Links/Marsili History.html" class="startexp">The Experience</a></li>
                 </ul>
             </nav>
-    </div>
+        </div>
     <div>
         <h5> Download Here our brief </h5>
         <a href="Downloads/BRIEF_FN.pdf"> PDF </a>
