@@ -1,0 +1,182 @@
+:: I. The Boy in Bologna
+Marsili leans back in his chair, slowly turning the small coffee cup in his hands.
+“I was born here in Bologna in 1658, just a few streets away from this very room," he says. "From the moment I drew breath, my life was already mapped out for me.”
+His family belonged to two old noble houses. With that came titles, immense expectations, and a predictable future everyone assumed he would just step into.
+“A title given at birth is nothing more than clothing,” he says, a faint smile touching his lips. “People admire the fabric before they even know if the man wearing it has earned a single thing.” Everyone expected him to follow the traditional path: university, politics, and a respectable, quiet life. It seemed inevitable, especially with Bologna’s famous university sitting practically outside his front door. But Marsili wanted something else. He despised the thought of spending his life merely repeating what other men had already written.
+Instead of enrolling, he slipped quietly into lectures unnoticed. He would listen from the back of crowded halls as scholars spoke about anatomy, astronomy, medicine, and plants.
+“They wanted me to study the world from books,” he says softly, “when all I really wanted was to step out into it myself.”
+He studies you for a moment before that smile returns. “Years later, Isaac Newton introduced me to the Royal Society as an eminent man.” He lets out a quiet laugh. “And all I could think about was that frightened boy hiding at the back of those lecture halls in Bologna.”
+
+[[Ask about Constantinople -> II. Two Currents]]
+[[Ask what made him leave Bologna -> II. Two Currents]]
+
+=============================================================================
+
+:: II. Two Currents
+“I was twenty-one,” the old man says, lifting the tiny porcelain cup to his lips, “and Bologna was starting to feel far too small for me.”
+When the Venetian ambassador needed a travel companion in 1679, Marsili accepted without a second thought. Soon, he found himself in Constantinople—a city that felt alive in ways Bologna never could match. He spent months there learning fragments of Turkish, wandering through crowded streets, and lingering in coffee houses where men played chess in total silence for hours.
+It was there he met Husayn Efendi, a scholar who wrote about coffee with the deep seriousness of a philosopher.
+“He gave me his writings,” Marsili says softly. “He has been dead for many years now, but I still read his words. In that way, he isn't entirely gone.”
+Yet, it was the Bosporus that fascinated him most—that narrow strait dividing two worlds. The local fishermen already knew that two currents moved through it at the exact same time, with one flowing south along the surface while a deeper current moved north beneath it. People talked about it constantly, but no one had actually tested it.
+“So, I lowered a bottle into the water and measured what came back up,” Marsili says, leaning forward slightly.
+The deeper water proved to be colder, saltier, and heavier. From that one simple experiment, he realized the sea was layered with hidden movements that were completely invisible from the surface. A faint smile crosses his face. “I had no idea back then that I was making some of the very first oceanographic observations in history. I was only twenty-one, after all. I just knew that nobody else seemed willing to get their sleeves wet.”
+
+[[Ask what happened after Constantinople -> III. The Rába]]
+
+============================================================================
+
+:: III. The Rába
+The old man falls quiet for a moment, his fingers resting gently against the empty porcelain cup.
+“I tell this story badly,” he admits at last. “Every time I speak of it, something feels wrong.”
+In 1681, he joined the army of the Holy Roman Emperor. He wasn't looking for glory; he simply wanted to see the rugged borderlands where empires collided.
+“A library cannot show you that kind of world,” he says quietly. “But a horse can.” Two years later, as the Ottoman army marched toward Vienna, Marsili found himself caught in a small battle along the river Rába in Hungary. It was a brief skirmish that history barely remembers, but one he could never forget. He still remembers dust thick enough to blind him, shouting so close it no longer sounded human, the crushing weight of a falling horse, and the freezing shock of river water hitting his side.
+“I thought only one thing,” he says softly. “So this is how it ends. I was twenty-five years old.”
+But death didn't come. The men who pulled him out were Crimean Tartar riders fighting for the Ottoman forces. Even beneath the layer of blood and mud, they recognized he was a nobleman. To them, a gentleman was valuable—or, as Marsili puts it, “a coin yet to be spent.”
+One of the riders lifted his chin and studied his face carefully. It wasn't done cruelly, but rather like a merchant judging the quality of cloth in a market. In that exact moment, Marsili understood something terrifying: his title, his family, and even his name meant absolutely nothing here.
+
+“On the banks of the Rába,” he says quietly, “I stopped being Marsili of Bologna. I became merchandise.”
+
+[[Ask what happened after his capture -> IV. The Coin Yet to Be Spent]]
+
+===========================================================================
+
+:: IV. The Coin Yet to Be Spent
+“It is a small word—sold,” the old man says quietly, staring down into the last dark traces of coffee in his cup. “But when it's spoken by the person who actually lived it, it becomes much larger.” After the battle at the Rába, the Crimean Tartars didn't keep him for long. Wounded and feverish, he only slowed them down, so he was passed from one group to another like an object up for trade. There were no dramatic auctions or shouting crowds. Instead, there were only quiet conversations in tents and money changing hands while men examined him the way merchants inspect cloth or horses. “They didn't hate me,” Marsili says. “But they didn't see me as human, either. I was useful, and that was enough.”
+Yet, amidst those grim memories, one detail remained strangely gentle: a woman who cleaned his wounds with hot water and wine without ever uttering a single word. He never learned her name, but decades later, he still remembers the touch of her hands more clearly than most faces.
+Eventually, he was brought before the Pasha of Temesvar, who studied him carefully before making a remark that set the whole room laughing. Marsili only understood the sentence years later: this one will live. “And he was right,” the old man says softly. “I did live. But the body never truly forgets what it once became.”
+
+[[Ask what life under the Pasha was like -> V. Invisible Things]]
+
+============================================================
+
+:: V. Invisible Things
+“The Pasha of Temesvar made me a servant,” the old man says, “though that word is far too small for what it actually meant.”
+Before his capture, Marsili had spent his entire life being waited on by others. Suddenly, everything reversed. He carried supplies, poured drinks, scrubbed rooms, obeyed orders, and endured beatings that sometimes came from his own mistakes and sometimes from nothing at all besides another man’s foul mood.
+“It was humiliating,” he admits, “but the humiliation wasn't the important part.”
+What stayed with him most was the strange, powerful knowledge that comes from becoming completely invisible. Servants hear things that powerful men never notice themselves saying aloud. They see the raw fear before battles, the bitter arguments behind closed doors, and the harsh truths that diplomats never reach.
+Because Marsili poured coffee quietly and spoke very little, the officers eventually stopped seeing him as a person at all. They spoke completely freely in front of him.
+“Diplomats see thrones,” he says softly. “Servants see reality.”
+The old man leans forward slightly, his pale eyes locking onto yours. “If you are ever near powerful people, be quiet. Be useful. Listen far more than you speak. You will learn more in a single hour than they will learn in an entire lifetime.”
+
+[[Ask who bought him after the Pasha -> VI. The Brothers]]
+
+===========================================================================
+
+:: VI. The Brothers
+“There came a day when I was sold again,” the old man says quietly. “Twice a slave. That is a strange sentence to say aloud.”
+After months in the pasha’s household, Marsili was bought by two Bosnian brothers who traveled with the Ottoman armies as merchants. Unlike the others, they already knew him from the coffee he prepared around the camp. They were deeply curious about this strange Italian who spoke broken Turkish and could answer questions no ordinary servant should have known.
+“Most men gave commands,” Marsili says. “But these two asked questions instead.”
+They wanted to hear all about Bologna, its great towers, its paintings, and the Christian world stretching beyond the empire. Marsili answered as best he could, while they laughed kindly at his mistakes. “It mattered more than it should have,” he admits softly. “By then, I had almost entirely forgotten what ordinary human kindness sounded like.”
+When Caterina asks if he remembers their names, the old man hesitates before shaking his head. “No,” he says quietly, “and I am ashamed of that.” He explains that memory keeps fear perfectly clear, while gentler things slowly fade away.
+What he remembers instead is the taller brother placing a hand on his shoulder after the sale, telling him not to be afraid. Marsili didn't fully believe him at the time, but the brothers proved to be different from anyone else. They treated him as someone useful rather than invisible. He could read, write, speak several languages, and brew coffee properly, and they relied on him openly for those skills.
+“There is dignity in being needed honestly,” he says. Years later, when he wrote his book about coffee, he made sure to include them in its pages. He understood that the drink itself had saved his life. Through coffee, he met the brothers, and through them, he survived.
+
+The old man looks down at the cup in his hands. “I owe a great debt,” he says softly, “to a bean, and to two men whose names I forgot.”
+
+[[Ask how he finally escaped captivity -> VII. A Small Cup]]
+
+============================================================================
+
+:: VII. A Small Cup
+The old man slides the tiny porcelain cup toward Caterina with a faint smile. “Drink,” he says.
+The coffee smells bitter and smoky, almost unfamiliar, but after the first sip she catches a hidden sweetness beneath the dark flavor. Marsili seems pleased by her reaction. “Welcome to the eighteenth century,” he jokes softly.
+He explains that he learned to brew coffee during his Ottoman captivity while serving inside the military camps. The pasha gave him beans, a copper pot, and the sole job of preparing coffee for the soldiers and officers before they went into battle. Marsili spent hours roasting the beans, grinding them into a fine powder, and carefully preparing the thick foam that Turkish coffee was famous for.
+“Coffee without foam,” he says, “was like a wedding without music.” While serving the men, he listened quietly to the conversations swirling around him, learning an immense amount about Ottoman culture, the soldiers, and their daily lives. Years later, after finally returning to Europe, he published one of the earliest books about coffee ever written there.
+Marsili looks at Caterina’s cup with a sense of quiet pride. “A prisoner carried this drink back to Europe,” he says softly, “and now, it feels as though it has always belonged here.”
+
+[[Ask about the strange cannon sketches on the desk -> VIII. The Dangerous Pages]]
+
+===========================================================================
+
+:: VIII. The Dangerous Pages
+The old man’s warmth vanishes the moment he begins. He glances at the door once, then lowers his voice, as if he suspects the very walls might repeat his words.
+“There was another book,” he says, “one I wrote in captivity. And it was far more dangerous than the one about coffee.” During his time in the Ottoman camps, Marsili had become nearly invisible. He served coffee to officers, merchants, and commanders—men who spoke freely because they never truly saw the person standing right beside them. So, he listened, constantly, without ever needing to pretend.
+At night, when the camp finally settled into silence, he wrote everything down by candlelight. He used candles taken carefully from supplies that no one tracked, recording the exact structure of the army, how orders were passed, how messages traveled, and where the military systems held or quietly failed. He wrote about the janissaries, the cavalry, and the irregular fighters who lived off plunder.
+But his voice tightens when he says, “Above all, I wrote about the cannons.”
+They were unlike anything in Europe. Enormous machines dragged along by oxen, they were forged in Constantinople with a precision that made them feel almost alive. He studied them closely, sketching what he could when it was safe, and memorizing the details when it wasn't. “If those pages had been discovered,” he says, “I wouldn't have been killed quickly. I would have been made an example of.”
+For months he lived with that terrifying certainty, constantly hiding the pages and checking them again and again, yet never stopping the act of writing. In time, those hidden notes became the foundation for a massive military study of the Ottoman Empire, published long after his death.
+
+He gives a faint, almost absent smile. “A whole empire,” he says softly, “written down by a man who was only supposed to be serving coffee.”
+
+[[Ask how he finally returned home -> IX. The Long Way Home]]
+
+==========================================================================
+
+:: IX. The Long Way Home
+“In the spring of 1684,” the old man says, “my ransom was finally arranged. After eight months inside the Ottoman camp, I walked out a free man.”
+He pauses, looking almost surprised by how ordinary the words sound. “People imagine freedom as something incredibly dramatic—running, tears, immense relief. I used to think so, too.”
+But it doesn't happen like that. He simply walked past the last sentry, crossed an open field, and followed the road toward the men waiting for him. He felt no joy, only a strange, hollow emptiness he couldn't quite explain. “It felt,” he says quietly, “as if I had left something vital behind in that camp.”
+When Caterina asks what it was, he hesitates. “The man I was before I was captured,” he answers. “He never came out with me.”
+She assumes he returned straight to Bologna, but he shakes his head. Instead, he went right back to war. After living inside the Ottoman camps and studying them from within, he was now one of the very few Europeans who truly understood how the empire worked.
+“My knowledge was worth more than an entire regiment,” he says. Yet, it wasn't just about knowledge. There was a lingering anger, too, and a restlessness, as if a quiet life simply didn't belong to him anymore. So he joined the Emperor’s forces again, fighting in the campaigns for Buda and Belgrade, reading Ottoman defenses almost instinctively. Years later, after endless wars and negotiations, he helped draw the official borders after the Treaty of Karlowitz. By then, he was no longer a servant or a prisoner, but a general of the Empire itself.
+He gives a small, dry smile. “The slave who once poured coffee ended up commanding soldiers.”
+Then, almost abruptly, he changes his tone and asks about Caterina’s brother—the one who thinks girls don't belong in the Institute. When she mentions that he studies law and thinks himself terribly clever, Marsili laughs softly.
+“Good,” he says. “Tell him you drank coffee with a man who was once a slave, studied an empire from the inside, and became a general.” His eyes flicker with genuine amusement. “Then ask him what he has managed to do this week.”
+
+[[Ask about the maps covering the walls -> X. The River, Drawn]]
+
+================================================================
+
+:: X. The River, Drawn
+Marsili gestures toward the enormous river chart covering half the wall behind him. “The border I helped draw after the Treaty of Karlowitz followed the Danube for hundreds of miles,” he explains. “Most officers would have signed the paperwork and left. I stayed for years.”
+What began as strictly military work slowly transformed into something else entirely. Officially, he was there to measure territory for the Emperor, but he could never look at a piece of land without wanting to understand everything ticking inside it. So, he traveled along the Danube by boat, surrounded by assistants and scientific instruments, and began studying the river in obsessive detail. He measured its width, depth, and currents. He climbed its steep banks to copy ancient inscriptions, mapped out ruins, collected minerals, and even dragged nets through the water to sketch fish that no one had ever properly recorded.
+He pauses only slightly before adding, “I even drew birds’ eggs. If you don't understand the beginning of a thing, you can't possibly understand the thing itself.”
+All of it eventually became his great masterpiece, Danubius Pannonico-Mysicus, a vast study of the Danube published years later with detailed engravings. He pulls one heavy, leather-bound volume from the shelf and places it on the desk between you. When he opens it, the pages are filled with fish, birds, plants, ruins, and river maps drawn with precise, loving care.
+“An entire river captured between two covers,” he says quietly, looking almost satisfied.
+What started as a simple military survey had become something far larger: science, travel, memory, and obsession. His hand lingers on the page for a second before he looks up at you.
+
+“I was meant to draw a border,” he says. “Instead, I documented a world.”
+
+[[Ask about the strange glass tube on the desk -> XI. The Ampoule]]
+[[Ask about the sea maps nearby -> XII. The Wet World]]
+
+===============================================================
+
+:: XI. The Ampoule
+“Come closer,” the old man says softly. He lifts a slender glass tube from its velvet cloth with unusual care, handling it as if it might shatter from attention alone.
+Up close, it looks entirely ordinary—just a narrow, weighted glass body with faint markings and a small stopper. Marsili catches your doubt and smiles. “Exactly,” he says. “The best instruments never look impressive.”
+He lowers it into a cloudy glass jar on his desk, where it floats upright as the water settles around it. As it rests against the markings, he explains how it measures density, salinity, and even temperature, depending on how it's used. Saltier water changes its buoyancy, while fresher water gives another reading. Because of this, he could compare different seas through exact measurement rather than relying on guesses or old sailors’ yarns. “That was the whole point,” he says quietly. “Numbers. Places. Facts. Not legends.”
+With this simple tool, he began recording the waters of the Bosporus, the Aegean, the Sea of Marmara, and later the Mediterranean, turning fluid movement into solid data and making subtle differences visible. To him, the sea became a language that no one had ever properly tried to read. He sets the ampoule back down on its cloth, leaving his hand resting beside it for a moment. Over time, he knows others will build better instruments and map far deeper oceans, but he seems content knowing that some of the earliest measurements began with this small tube and a man asking questions by the water's edge.
+“The sea hides its truths,” he says. “Most people just look at it. I wanted to interrogate it.” There is a quiet pride in his voice now—not the pride of military rank or victory, but of discovery itself. He glances at you. “A strange life’s work, I admit. But I have always trusted questions far more than answers.”
+
+[[Ask about the maps of the sea nearby -> XII. The Wet World]]
+[[Ask what he believes lies beneath the ocean -> XIII. No Monsters]]
+
+===============================================================
+
+:: XII. The Wet World
+“In 1703,” the old man says, “I lost a fortress called Breisach.”
+He says it casually, without any real weight, as if the event belonged to someone else entirely. “You won't have heard of it. I surrendered it, was court-martialed, stripped of my rank, my property, everything. Absolute disgrace followed.” He pauses, then adds almost lightly, “And it was the best thing that ever happened to me.”
+Caterina frowns at this. “How can disgrace be the best thing?” “Because it ended my usefulness,” he replies. “For twenty-two years, I had duties, orders, and a rigid place in the world. After Breisach, I had none of that. And for the first time since my childhood, I had nothing but curiosity.”
+What followed wasn't a quiet retirement, but a period of wandering through Switzerland, Milan, and Versailles—where even a disgraced general could still be studied with interest. Eventually, he landed on the coast of Provence at Cassis, returning to the very sea he had examined decades earlier.
+There, he began his work again using simple tools: the ampoule, weighted lines to feel the shape of the seabed, and dredging nets that pulled up fragments of a world no one had ever truly looked at. “When you dredge,” he says quietly, “you bring up things you didn't even know were down there.”
+Among those discoveries were corals, which scholars at the time still insisted were plants. Marsili studied them closely and concluded they were actually animals, forming vast colonies and stone-like structures over time. He was dismissed by the academic world at first, but he was entirely right.
+From Provence, he mapped the seabed just as he had once mapped enemy fortresses, charting slopes, depths, sediments, and sudden drops along the coast to build one of the earliest systematic pictures of the sea’s physical structure. This work became Histoire physique de la mer, published in 1725—the very first book of its kind.
+
+Marsili gives a small, tired shrug. “Some people call me a founder of oceanography,” he says. “It’s an ugly word. But important ones usually are.”
+
+[[Ask what he believes lies beneath the ocean -> XIII. No Monsters]]
+
+===============================================================
+
+:: XIII. No Monsters
+The old man leans forward across the desk. For the first time all afternoon, a sharp edge returns to his voice, as though something long settled deep inside him has been stirred back to life by the late October light streaming through the window. “This,” he says, “is the idea I am most proud of—and it's the exact one men mocked me for the most.”
+He explains that in his time, the deep ocean is still widely imagined as a terrifying, separate world filled with serpents, monsters, and endless darkness. Maps simply leave blank spaces beneath the sea, or fill them with mythical creatures invented by men who have never actually explored. Sailors repeat old stories, scholars repeat even older stories, and everyone blindly accepts that beneath the waves lies something magical and unknowable.
+Marsili shakes his head slowly. “But I had actually looked.”
+For years he lowered his instruments into the water, measured the depths, dredged the seabed, and carefully studied what came back up. Again and again, he found the exact same things: sand, rocks, slopes, valleys, and ridges. It was the exact same geography that exists on land, just hidden underwater.
+“The continents do not just stop at the shore,” he says quietly. “They continue right on beneath the sea.” Caterina thinks about this for a moment before admitting that the idea sounds strangely obvious once it's actually spoken aloud.
+The old man laughs instantly, absolutely delighted by her answer. “Exactly! For centuries, men preferred to believe in monsters simply because nobody bothered to look properly.”
+He grows quieter then, falling into a thoughtful silence. One day, he says, future explorers will chart the ocean floor completely, naming underwater mountains and valleys just as people map out countries and rivers on land today. Perhaps somewhere on those future maps, there will be a small note remembering the first man who realized the sea floor was simply another landscape waiting to be understood.
+
+Marsili looks toward the fading window light before speaking again, his voice much softer now. “If that day ever comes, read it for me.”
+
+[[Ask about the Institute and this room -> XIV. The Gift]]
+
+=================================================================
+
+:: XIV. The Gift
+The study glows with the warm, late-afternoon light as Marsili gestures around the room. He explains that after his disgrace at Breisach, he donated absolutely everything he had collected—his books, instruments, fossils, maps, manuscripts, and eventually even the palazzo itself. He did it so Bologna could create a place where young people could study the world through real observation, rather than just repeating old books. From that single idea came the Istituto delle Scienze, a place entirely devoted to experiment, curiosity, and discovery.
+“The point is not the glass cases,” he says softly. “The point is to open them.”
+He tells Caterina that honors from Paris and London mattered far less to him than this house and the people who might one day learn inside its walls.
+Then, he rises slowly from his chair, takes her hand, and asks her to return someday, and to remember him when she does. At the doorway, she looks back one final time and sees him already bent over his maps again, sitting right beside his porcelain coffee cup.
+She closes the door gently behind her and walks out into the cool evening streets of Bologna, knowing deep down that she will remember this conversation for the rest of her life.
