@@ -20,6 +20,42 @@ html {
     --nav-font-brand: Georgia, 'Times New Roman', serif;
 }
 
+/* Global Rules */
+
+p {
+    font-family: var(--nav-font-ui);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #3d2f1a;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-family: var(--nav-font-brand);
+    font-size: 2rem;
+    color: var(--nav-back);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+h6 {
+    display: inline-block;
+    font-family: var(--nav-font-ui);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--nav-frames);
+    border-bottom: 1px solid var(--nav-frames);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    color: var(--nav-text);
+}
+
 
 /* Body and footer */
 
@@ -295,35 +331,6 @@ hr {
     max-width: 600px;
 }
 
-.boxfi h6 {
-    display: inline-block;
-    font-family: var(--nav-font-ui);
-    font-size: 0.8rem;
-    font-weight: 400;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--nav-frames);
-    border-bottom: 1px solid var(--nav-frames);
-    padding-bottom: 0.4rem;
-    margin-bottom: 1.5rem;
-}
-
-.boxfi h4 {
-    font-family: var(--nav-font-brand);
-    font-size: 2rem;
-    color: var(--nav-back);
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    font-weight: 400;
-}
-
-.boxfi p {
-    font-family: var(--nav-font-ui);
-    font-size: 1.05rem;
-    line-height: 1.75;
-    color: #3d2f1a;
-}
-
 /* Right Column portrait container */
 
 #marsiliimg {
@@ -380,34 +387,8 @@ hr {
     max-width: 540px;
 }
 
-#mustext h6 {
-    display: inline-block;
-    font-family: var(--nav-font-ui);
-    font-size: 0.8rem;
-    font-weight: 400;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--nav-frames);
-    border-bottom: 1px solid var(--nav-frames);
-    padding-bottom: 0.4rem;
-    margin-bottom: 1.5rem;
-}
-
 #mustext h4 {
-    font-family: var(--nav-font-brand);
     font-size: 2.2rem;
-    color: var(--nav-back);
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    font-weight: 400;
-}
-
-#mustext p {
-    font-family: var(--nav-font-ui);
-    font-size: 1.05rem;
-    line-height: 1.75;
-    color: #3d2f1a;
-    margin-bottom: 1rem;
 }
 
 /* Last par italicized, gold accent dot before it (it is the address) */

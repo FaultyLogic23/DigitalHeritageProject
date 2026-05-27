@@ -270,9 +270,7 @@ footer p {
 
 /* Chapter number and gold underline on each section */
 
-#Concept h4,
-#mus h4,
-#goals h4 {
+#Concept h4, #mus h4, #goals h4 {
     display: flex;
     align-items: baseline;
     gap: 1rem;
@@ -296,7 +294,7 @@ footer p {
    CONCEPT 
    ===================================== */
 
-#Concept p a {
+#Concept p a, #goals p a {
     color: var(--nav-water);
     text-decoration: underline;
     text-underline-offset: 2px;
@@ -377,23 +375,23 @@ footer p {
    text on the left, cards right and side by side
    ===================================== */
 
-#InsGCG,
-#IdC,
-#DesC,
-#DisC {
+#InsGCG, #DisC {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 3rem;
     margin: 1.5rem 0;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(184, 155, 94, 0.15);
 }
 
+#IdC, #DesC {
+    margin: 1.5rem 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(184, 155, 94, 0.15);
+}
+
 /* Text column takes left side */
-#InsGCG p,
-#IdC p,
-#DesC p,
-#DisC p {
+#InsGCG p, #DisC p {
     flex: 1;
     min-width: 300px;
 }
@@ -417,28 +415,38 @@ footer p {
         0 3px 8px rgba(60, 40, 20, 0.15);
 }
 
-/* For #IdC, #DesC, #DisC the .ins images  */
-
-#IdC,
-#DesC,
-#DisC {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    align-items: start;
+.nrow {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
 }
 
-/* Text spans full width above the cards */
-#IdC p,
-#DesC p,
-#DisC p {
-    grid-column: 1 / -1;
-    min-width: auto;
+.nrow p {
+    flex: 1;
 }
 
 /* =====================================
-   DESIGN BRIEF 
+   Info and Design Brief
    ===================================== */
+
+#moreinfo {
+    text-align: center;
+    padding: 2rem 2rem 0;
+}
+
+#moreinfo .gitlink {
+    color: var(--nav-back);
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    vertical-align: middle;
+}
+
+#moreinfo .gitlink:hover {
+    color: var(--nav-frames);
+}
+
 
 #designbr {
     text-align: center;
