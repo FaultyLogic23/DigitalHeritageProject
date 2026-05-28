@@ -36,6 +36,12 @@
                             </a>
                         </li>
                         <li>
+                            <a href="#proto">
+                                <span>The Prototype</span>
+                                <span class="dd-desc">UX &amp; UI</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="/Docs/DesignBrief.pdf" download>
                                 <span>Design Brief</span>
                                 <span class="dd-desc">Download PDF</span>
@@ -59,13 +65,13 @@
 
             Given that Marsili's life was rich with diverse experiences, defining him solely as
             an engineer, geographer, or scientist would be an understatement. That is why we
-            chose to bring his story to life through the elements he bestowed upon the Accademy Of Sciences
+            chose to bring his story to life through the elements he bestowed upon the Academy Of Sciences
             Of Bologna, elements which come from his immense collection. Each one is a unique symbol of his incredible
             journey.
         </p>
 
         <p>
-            The photos which you are going to see throughout the whole project comes from both us, taken at <a
+            The photos which you are going to see throughout the whole project come from both us, taken at <a
                 href="https://bub.unibo.it/it/visita-il-palazzo/museo-marsili">Marsili's Museum</a>,
             and <a href="https://commons.wikimedia.org/wiki/Category:Luigi_Ferdinando_Marsigli">Wikimedia Commons</a>.
         </p>
@@ -92,7 +98,7 @@
                 is located at Palazzo Poggi, Via Zamboni 33, Bologna.
                 The museum's layout offers a small journey into the life of this extraordinary soldier
                 and eclectic scholar through a rich collection of autographed manuscripts, including his
-                personal autobiography, fascinating specimes like corals and some uniques 17th-century maps such as the
+                personal autobiography, fascinating specimens like corals and unique 17th-century maps such as the
                 topography of
                 Armenian places of worship.
             </p>
@@ -121,15 +127,18 @@
         </p>
 
         <p>
-            This experience is designed for complete newcomers who arrive with no prior knowledge of Marsili
-            and leave with a genuine understanding of who he was. We have chosen two type of audiences which are
-            Rather than passively reading labels, visitors take an active role in the experience:
-            they adopt a perspective, listen to narrated scenes, make choices, complete light tasks,
-            and assemble Marsili's story for themselves as they move through it.
+            This experience is designed for complete newcomers who arrive with no prior
+            knowledge of Marsili and leave with a genuine understanding of who he was.
+            We identified two audience profiles: Leonardo, a 17-year-old student from Bologna
+            seeking interactive engagement with history, and Thomas, a 52-year-old architect
+            visiting the city who prefers immersive, time-efficient cultural experiences.
+            Rather than passively reading labels, both take an active role in the experience:
+            they adopt a perspective, listen to narrated scenes, make choices, complete light
+            tasks, and assemble Marsili's story for themselves as they move through it.
         </p>
         <div id="cards">
-            <img class="goalscard" src="/Images/Audience/AudienceLeonardo.png">
-            <img class="goalscard" src="/Images/Audience/AudienceThomas.png">
+            <img class="goalscard" src="/Images/Audience/AudienceLeonardo.png" alt="Audience Card Leonardo">
+            <img class="goalscard" src="/Images/Audience/AudienceThomas.png" alt="Audience Card Thomas">
         </div>
 
         <!-- Divider Here -->
@@ -141,12 +150,12 @@
 
         <div id="InsGCG">
             <p>
-                Then we defined our institutional goals. The primary aim is higher visitor satisfaction.
-                Visitors should leave feeling the visit was genuinely worthwhile and memorable, supporting this is an
-                educational ambition:
-                The experience adds an interactive layer to a collection that currently relies on static panels. Both
-                are enabled by a third, practical goal
-                the digitisation of maps, instruments, and archival materials into reusable digital form.
+                Then we defined our institutional goals. The primary aim is higher visitor
+                satisfaction, visitors should leave feeling the visit was genuinely worthwhile
+                and memorable. Supporting this is the ambition to increase educational activities,
+                adding an interactive layer to a collection that currently relies on static panels while
+                also increasing visitor participation, involving visitors through
+                feedback, challenges, and active engagement with the experience.
             </p>
             <div class="insrow">
                 <img class="ins" alt="institutional goal" src="/Docs/Cards/InstitutionalCards/InstitutionalGoalHVS.png">
@@ -189,10 +198,8 @@
             <div class="nrow">
                 <p>
                     The design is pretty straightforward, the visitors arrive and access the experience through a QR
-                    Code by
-                    using his personal devices such as smartphones, tablets or computers, then they live immersive
-                    experiences by travelling
-                    back in the past through Marsili's Life episodes and learns by solving minigames.
+                    Code by using their personal devices such as smartphones, tablets or computers, then they live immersive
+                    experiences by travelling back in the past through Marsili's Life episodes and learn by solving minigames.
                 </p>
 
                 <div class="insrow">
@@ -245,12 +252,32 @@
     <div id="proto">
         <h6>Prototype</h6>
         <h4>From Concept to Reality</h4>
-        <p> Based on the design framework above, we developed a high-fidelity prototype
-            in Figma that maps the complete visitor journey — from the initial QR code scan
-            to the final reflection moment.</p>
-        <p>The prototype covers all key interaction points: the narrative branching system,
-            the minigame interfaces, and the audio narration triggers tied to each chapter.</p>
-        <p>You can explore the full prototype on <a href="https://figma.com/il-tuo-link" target="_blank">Figma</a>.</p>
+        <p>
+            Based on the design framework above, we developed a prototype in Figma
+            that illustrates the core interaction concepts of the experience: the QR code
+            entry point that launches the visitor's journey, and two minigame interfaces
+            designed to test engagement and learning through play. You can explore the
+            prototype on <a href="https://figma.com/il-tuo-link" target="_blank">Figma</a>.
+        </p>
+        <p>
+            The experience itself takes the form of an interactive narrative authored in Twine
+            and delivered directly on the visitor's own device. Upon arriving at the museum,
+            visitors scan a QR code that launches a first-person story in which Marsili himself
+            recounts his life. The narrative is divided into fourteen short chapters.
+        </p>
+        <p>
+            Audio narration, generated through ElevenLabs, carries the voice of Marsili and
+            the ambient atmosphere of each scene, reducing the reliance on reading and making
+            his world feel present. At key moments, visitors face choices that shape the path
+            of the story, giving a genuine sense of authorship over the journey. The experience
+            runs entirely in a browser, requires no download, and works on smartphones, tablets,
+            and computers.
+        </p>
+
+        <div id="twinemap">
+            <img src="/Docs/TwineMap.png" alt="Twine Map">
+            <p class="caption">Our Twine map</p>
+        </div>
     </div>
 
     <div class="ornament-divider">

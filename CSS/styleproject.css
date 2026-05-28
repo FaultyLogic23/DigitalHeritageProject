@@ -8,9 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* =====================================
-   VARIABLES
-   ===================================== */
+/* Global variables */
 
 :root {
     --nav-back: #1a2744;
@@ -23,9 +21,7 @@ html {
     --nav-font-brand: Georgia, 'Times New Roman', serif;
 }
 
-/* =====================================
-   GLOBAL TYPOGRAPHY
-   ===================================== */
+/* Global tipography */
 
 p {
     font-family: var(--nav-font-ui);
@@ -56,9 +52,65 @@ h4 {
     font-weight: 400;
 }
 
-/* =====================================
-   BODY & FOOTER
-   ===================================== */
+/* Ornament dividers */
+
+.ornament-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 2.5rem auto;
+}
+
+.ornament-divider .line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--nav-frames), transparent);
+    opacity: 0.7;
+}
+
+.ornament-divider .symbol {
+    color: var(--nav-frames);
+    font-family: var(--nav-font-brand);
+    font-size: 1rem;
+    opacity: 0.7;
+    line-height: 1;
+}
+
+/* Chapter headers*/
+
+#Concept, #mus, #goals, #proto {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 3rem 2rem 2rem;
+    counter-increment: chapter;
+}
+
+/* Chapter number and gold underline on each section */
+
+#Concept h4, #mus h4, #goals h4, #proto h4 {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(184, 155, 94, 0.25);
+    margin-bottom: 2rem;
+}
+
+#Concept h4::before,
+#mus h4::before,
+#goals h4::before,
+#proto h4::before {
+    content: "0" counter(chapter);
+    font-family: var(--nav-font-brand);
+    font-size: 3.5rem;
+    color: var(--nav-frames);
+    opacity: 0.3;
+    line-height: 1;
+}
+
+/* Body & Footer */
 
 body {
     color: var(--nav-text);
@@ -70,7 +122,6 @@ body {
         #f5f1e8 65%,
         #f5f1e8 85%);
     margin: 0;
-    /* CSS counter for chapter numbers */
     counter-reset: chapter;
 }
 
@@ -88,9 +139,7 @@ footer p {
     color: var(--nav-text);
 }
 
-/* =====================================
-   NAVBAR
-   ===================================== */
+/* Navbar */
 
 .box-nav {
     background-color: var(--nav-back);
@@ -227,81 +276,15 @@ footer p {
     border-bottom-color: var(--nav-frames);
 }
 
-/* =====================================
-   ORNAMENT DIVIDERS 
-   ===================================== */
+/* Concept */
 
-.ornament-divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    max-width: 500px;
-    margin: 2.5rem auto;
-}
-
-.ornament-divider .line {
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--nav-frames), transparent);
-    opacity: 0.7;
-}
-
-.ornament-divider .symbol {
-    color: var(--nav-frames);
-    font-family: var(--nav-font-brand);
-    font-size: 1rem;
-    opacity: 0.7;
-    line-height: 1;
-}
-
-/* =====================================
-   CHAPTER HEADERS
-   ===================================== */
-
-#Concept, #mus, #goals, #proto {
-    max-width: 1250px;
-    margin: 0 auto;
-    padding: 3rem 2rem 2rem;
-    counter-increment: chapter;
-}
-
-/* Chapter number and gold underline on each section */
-
-#Concept h4, #mus h4, #goals h4, #proto h4 {
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(184, 155, 94, 0.25);
-    margin-bottom: 2rem;
-}
-
-#Concept h4::before,
-#mus h4::before,
-#goals h4::before,
-#proto h4::before {
-    content: "0" counter(chapter);
-    font-family: var(--nav-font-brand);
-    font-size: 3.5rem;
-    color: var(--nav-frames);
-    opacity: 0.3;
-    line-height: 1;
-}
-
-/* =====================================
-   CONCEPT 
-   ===================================== */
-
-#Concept p a, #goals p a {
+#Concept p a, #goals p a, #proto p a {
     color: var(--nav-water);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
-/* =====================================
-   MUSEUM PHOTOS
-   ===================================== */
+/* Museum Photos */
 
 #imgsdone {
     display: flex;
@@ -324,10 +307,7 @@ footer p {
         0 4px 12px rgba(60, 40, 20, 0.2);
 }
 
-/* =====================================
-   MUSEUM SECTION.
-   text left, image right
-   ===================================== */
+/* Museum section */
 
 #muscontent {
     display: flex;
@@ -349,11 +329,8 @@ footer p {
         0 12px 32px rgba(60, 40, 20, 0.12);
 }
 
-/* =====================================
-   GOALS SECTION 
-   ===================================== */
+/* Goals section  */
 
-/* Audience cards — stacked, full width */
 #cards {
     display: flex;
     flex-direction: column;
@@ -369,10 +346,10 @@ footer p {
         0 1px 3px rgba(60, 40, 20, 0.15);
 }
 
-/* =====================================
-   CARD SUB-SECTIONS (#InsGCG, #IdC, #DesC, #DisC)
+/* 
+   Card sub-sections (#InsGCG, #IdC, #DesC, #DisC)
    text on the left, cards right and side by side
-   ===================================== */
+ */
 
 #InsGCG, #DisC {
     display: flex;
@@ -425,9 +402,33 @@ footer p {
     flex: 1;
 }
 
-/* =====================================
-   Info and Design Brief
-   ===================================== */
+/* Twine Map and caption */
+
+#twinemap {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#twinemap img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow:
+        0 4px 12px rgba(60, 40, 20, 0.2),
+        0 12px 32px rgba(60, 40, 20, 0.12);
+}
+
+.caption {
+    font-family: var(--nav-font-brand);
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--nav-frames);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+/* Info and Design Brief */
 
 #moreinfo {
     text-align: center;
