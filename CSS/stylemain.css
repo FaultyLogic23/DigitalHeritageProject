@@ -56,6 +56,31 @@ footer p {
     color: var(--nav-text);
 }
 
+/* Ornaments dividers */
+
+.ornament-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.ornament-divider .line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--nav-frames), transparent);
+    opacity: 0.7;
+}
+
+.ornament-divider .symbol {
+    color: var(--nav-frames);
+    font-family: var(--nav-font-brand);
+    font-size: 1rem;
+    opacity: 0.7;
+    line-height: 1;
+}
 
 /* Body and footer */
 
@@ -391,8 +416,6 @@ hr {
     font-size: 2.2rem;
 }
 
-/* Last par italicized, gold accent dot before it (it is the address) */
-
 #mustext p:last-child {
     margin-top: 1rem;
     margin-bottom: 0;
@@ -509,28 +532,3 @@ hr {
     transition: color 0.2s ease, transform 0.2s ease;
 }
 
-/* Ornaments dividers */
-
-.ornament-divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    max-width: 500px;
-    margin: 2rem auto;
-}
-
-.ornament-divider .line {
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--nav-frames), transparent);
-    opacity: 0.7;
-}
-
-.ornament-divider .symbol {
-    color: var(--nav-frames);
-    font-family: var(--nav-font-brand);
-    font-size: 1rem;
-    opacity: 0.7;
-    line-height: 1;
-}
