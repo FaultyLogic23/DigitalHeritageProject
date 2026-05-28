@@ -259,9 +259,7 @@ footer p {
    CHAPTER HEADERS
    ===================================== */
 
-#Concept,
-#mus,
-#goals {
+#Concept, #mus, #goals, #proto {
     max-width: 1250px;
     margin: 0 auto;
     padding: 3rem 2rem 2rem;
@@ -270,7 +268,7 @@ footer p {
 
 /* Chapter number and gold underline on each section */
 
-#Concept h4, #mus h4, #goals h4 {
+#Concept h4, #mus h4, #goals h4, #proto h4 {
     display: flex;
     align-items: baseline;
     gap: 1rem;
@@ -281,7 +279,8 @@ footer p {
 
 #Concept h4::before,
 #mus h4::before,
-#goals h4::before {
+#goals h4::before,
+#proto h4::before {
     content: "0" counter(chapter);
     font-family: var(--nav-font-brand);
     font-size: 3.5rem;
