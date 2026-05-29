@@ -532,3 +532,100 @@ hr {
     transition: color 0.2s ease, transform 0.2s ease;
 }
 
+/* Cover more devices */
+
+@media (max-width: 768px) {
+
+.navlinks li a {
+    font-size: 14px;
+    padding: 0 0.5rem;
+}
+
+.liexp {
+    position: relative;
+    right: auto;
+}
+
+/* Welcome box and museum */
+.box-welcome {
+    min-height: 40vh;
+}
+
+.boxfi,
+.boxmus {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+}
+
+#marsiliimg, #contimgmu {
+        max-width: 100%;
+}
+
+#Marsili,
+#museumimg {
+    height: 40vh;
+}
+
+
+#containercards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+.box-welcome {
+    min-height: 30vh;
+    padding: 2rem 1rem;
+}
+
+.box-welcome h2 {
+    font-size: 1.8rem;
+}
+
+.box-welcome::before,
+.box-welcome::after {
+    width: 60px;
+}
+
+.navlinks li a {
+    font-size: 12px;
+    padding: 0 0.4rem;
+}
+
+    
+#textintro {
+    padding: 0 1rem;
+}
+
+#textintro h3 {
+    font-size: 0.85rem;
+}
+    
+.boxfi,
+.boxmus {
+    padding: 2rem 1rem;
+}
+
+#Marsili, #museumimg {
+    height: 30vh;
+}
+
+#containercards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+ }
+
+.cardmem {
+    max-width: 280px;
+}
+
+#TitleMem {
+    font-size: 1.8rem;
+}
+
+.ornament-divider {
+    max-width: 250px;
+    }
+}
